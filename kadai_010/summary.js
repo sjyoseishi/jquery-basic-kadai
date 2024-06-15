@@ -10,12 +10,12 @@ $('#change-text').on('click', function(){
 
 //フェードアウト
 $('#fade-out').on('click', function () {
-  // 不透明度を0にする（フェードアウトする）
+  // フェードアウトで文字が消える
   $('#target').css('opacity', 0);
 });
 
 //フェードイン
 $('#fade-in').on('click', function () {
-  // 不透明度を0にする（フェードインする）
+  // フェードインで文字が現れる
   $('#target').css('opacity', 1);
 });
