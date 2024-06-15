@@ -11,11 +11,11 @@ $('#change-text').on('click', function(){
 //フェードアウト
 $('#fade-out').on('click', function () {
   // フェードアウトで文字が消える
-  $('#target').css('opacity', 0);
+  $('#target').fadeOut();
 });
 
 //フェードイン
 $('#fade-in').on('click', function () {
   // フェードインで文字が現れる
-  $('#target').css('opacity', 1);
+  $('#target').fadeIn();
 });
